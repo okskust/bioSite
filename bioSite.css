@@ -320,7 +320,7 @@ img.papier5 {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(6, min-content);
-  grid-gap: 1em;
+  
   padding: 1.5em 1.5em 1.5em 0;
 }
 
@@ -330,28 +330,44 @@ img.papier5 {
   object-fit: cover;
 }
 
-img.hobby1 {
+figure {
+  border: 2px solid #ffffff;
+  padding-bottom: 2em;
+  margin: 1em;
+}
+
+figcaption {
+  color: white;
+  font-style: italic;
+  padding: 0.5em;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.hobby1 {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 4;
 }
 
-img.hobby2 {
+.hobby2 {
   grid-column-start: 4;
   grid-column-end: 10;
   grid-row-start: 1;
   grid-row-end: 4;
 }
 
-img.hobby3 {
+.hobby3 {
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 4;
   grid-row-end: 7;
 }
 
-img.hobby4 {
+.hobby4 {
   grid-column-start: 7;
   grid-column-end: 10;
   grid-row-start: 4;
