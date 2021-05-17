@@ -12,11 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>About - Mariia Shcheglova</title>
+    <title>About | Mariia Shcheglova</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+    <link rel="manifest" href="images/site.webmanifest" />
+
   </head>
   <body class="green-page">
     <div class="grid-container">
-      <div class="logo-place">
+      <div role="heading" aria-level="1" class="logo-place">
         <a href="index.html">
           <img
             src="images/logo1.png"
@@ -26,22 +32,22 @@
         </a>
       </div>
       <div class="photo-place"></div>
-      <div class="nav green">
+      <div role="navigation" class="nav green">
         <a href="about.html" class="active">About</a>
         <a href="digitalart.html">Digital Art</a>
         <a href="papiermacher.html">Papier-mâché</a>
         <a href="hobby.html">Hobby</a>
       </div>
 
-      <div class="content">
+      <div role="main" class="content">
         <div class="container-about">
           <img
             src="images/portraitMariia.jpg"
             class="portrait"
-            alt="portrait Mariia Shcheglova"
+            alt="Mariia Shcheglova's portrait"
           />
 
-          <div class="text-place">
+          <div role="article" class="text-place">
             <p class="text-about">
               Mariia Shcheglova is a 15-year-old artist and sculptor who lives
               in Queens, New York. Before moving to America, she lived in Russia
@@ -55,7 +61,7 @@
                 class="outside-link"
                 href="https://en.wikipedia.org/wiki/Papier-m%C3%A2ch%C3%A9"
                 target="_blank"
-                >Papier-mâché</a
+                >Papier-mâché art</a
               >, the creation of models and masks with paper and glue. Sculpting
               3D shapes with wire, cardboard, and paper, covering them in layers
               upon layers of paper, and painting the creations in amusing
@@ -86,6 +92,14 @@
               hiking in forests and parks, doing sports and reading.
             </p>
           </div>
+        </div>
+        <div class="footer">
+          <p class="copyright">
+            &copy; Oksana Kustova
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+          </p>
         </div>
       </div>
     </div>

@@ -12,11 +12,30 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>About - Mariia Shcheglova</title>
+    <title>Digital Art | Mariia Shcheglova</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
   </head>
   <body class="burgundy-page">
     <div class="grid-container">
-      <div class="logo-place">
+      <div role="heading" aria-level="1" class="logo-place">
         <a href="index.html">
           <img
             src="images/logo1.png"
@@ -26,71 +45,71 @@
         </a>
       </div>
       <div class="photo-place"></div>
-      <div class="nav burgundy">
+      <div role="navigation" class="nav burgundy">
         <a href="about.html">About</a>
-        <a href="digitalart.html"  class="active">Digital Art</a>
+        <a href="digitalart.html" class="active">Digital Art</a>
         <a href="papiermacher.html">Papier-mâché</a>
         <a href="hobby.html">Hobby</a>
       </div>
 
-      <div class="content">
+      <div role="main" class="content">
         <div class="container-art">
           <a href="#win1" class="art-work1">
-            <img src="images/sun.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/sun.png" alt="Sunset" />
           </a>
           <a href="#win2" class="art-work2">
             <img
               src="images/adventure.png"
-              alt="Mariia Shcheglova's art work"
+              alt="Pirate and giant octopus"
             />
           </a>
           <a href="#win3" class="art-work3">
-            <img src="images/owl.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/owl.png" alt="Owl and Moon" />
           </a>
           <a href="#win4" class="art-work4">
-            <img src="images/eye.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/eye.png" alt="Eye with legs wearing a hat" />
           </a>
           <a href="#win5" class="art-work5">
             <img
               src="images/coolmashrooms.png"
-              alt="Mariia Shcheglova's art work"
+              alt="Two googly mushrooms"
             />
           </a>
           <a href="#win6" class="art-work6">
-            <img src="images/ship.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/ship.png" alt="Spaceship" />
           </a>
           <a href="#win7" class="art-work7">
-            <img src="images/boy.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/boy.png" alt="Gloomy Boy's portrait" />
           </a>
           <a href="#win8" class="art-work8">
-            <img src="images/space.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/space.png" alt="Ships and planets in the space" />
           </a>
           <a href="#win9" class="art-work9">
-            <img src="images/cat.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/cat.png" alt="Black Cat" />
           </a>
           <a href="#win10" class="art-work10">
-            <img src="images/dinosaur.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/dinosaur.png" alt="Head of a dinosaur" />
           </a>
           <a href="#win11" class="art-work11">
             <img
               src="images/redmashroom.png"
-              alt="Mariia Shcheglova's art work"
+              alt="Red Mushroom"
             />
           </a>
           <a href="#win12" class="art-work12">
-            <img src="images/bird.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/bird.png" alt="Bird with long legs" />
           </a>
           <a href="#win13" class="art-work13">
             <img
               src="images/pinkmashroom.png"
-              alt="Mariia Shcheglova's art work"
+              alt="Pink Mushroom"
             />
           </a>
           <a href="#win14" class="art-work14">
-            <img src="images/octopus.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/octopus.png" alt="Octopus" />
           </a>
           <a href="#win15" class="art-work15">
-            <img src="images/happydog.png" alt="Mariia Shcheglova's art work" />
+            <img src="images/happydog.png" alt="Head of a smiling dog" />
           </a>
           <a href="#win16" class="art-work16">
             <img src="images/rabbit.png" alt="Mariia Shcheglova's art work" />
@@ -105,13 +124,21 @@
             <img src="images/duck.png" alt="Mariia Shcheglova's art work" />
           </a>
         </div>
+        <div class="footer">
+          <p class="copyright">
+            &copy; Oksana Kustova
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+          </p>
+        </div>
       </div>
 
       <a href="#x" class="overlay" id="win1"></a>
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Sunset</figcaption>
-          <img src="images/sun.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/sun.png" alt="Sunset" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -120,7 +147,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Adventure</figcaption>
-          <img src="images/adventure.jpg" alt="Mariia Shcheglova's art work" />
+          <img src="images/adventure.jpg" alt="Pirate and giant octopus" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -129,7 +156,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Owl and Moon</figcaption>
-          <img src="images/owl.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/owl.png" alt="Owl and Moon" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -138,7 +165,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Eye in a hat</figcaption>
-          <img src="images/eye.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/eye.png" alt="Eye with legs wearing a hat" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -149,7 +176,7 @@
           <figcaption class="big-picture">Cool mushrooms</figcaption>
           <img
             src="images/coolmashrooms.png"
-            alt="Mariia Shcheglova's art work"
+            alt="Two googly mushrooms"
           />
           <a class="close" title="Close" href="#close"></a>
         </figure>
@@ -159,7 +186,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Space Ship</figcaption>
-          <img src="images/ship.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/ship.png" alt="Space Ship" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -168,7 +195,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Gloomy Boy</figcaption>
-          <img src="images/boy.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/boy.png" alt="Gloomy Boy's portrait" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -177,7 +204,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Space</figcaption>
-          <img src="images/space.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/space.png" alt="Ships and planets in the space" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -186,7 +213,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Black Cat</figcaption>
-          <img src="images/cat.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/cat.png" alt="Black Cat" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -195,7 +222,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Dinosaur</figcaption>
-          <img src="images/dinosaur.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/dinosaur.png" alt="Head of a dinosaur" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -204,7 +231,10 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Red Mushroom</figcaption>
-          <img src="images/redmashroom.png" alt="Mariia Shcheglova's art work" />
+          <img
+            src="images/redmashroom.png"
+            alt="Red Mushroom"
+          />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -213,7 +243,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Proud Bird</figcaption>
-          <img src="images/bird.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/bird.png" alt="Bird with long legs" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -222,7 +252,10 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Pink Mushroom</figcaption>
-          <img src="images/pinkmashroom.png" alt="Mariia Shcheglova's art work" />
+          <img
+            src="images/pinkmashroom.png"
+            alt="Pink Mushroom"
+          />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -231,7 +264,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Octopus</figcaption>
-          <img src="images/octopus.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/octopus.png" alt="Octopus" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -240,10 +273,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Happy Dog</figcaption>
-          <img
-            src="images/happydog.png"
-            alt="Mariia Shcheglova's art work"
-          />
+          <img src="images/happydog.png" alt="Head of smiling dog" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -252,7 +282,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Strange Rabbit</figcaption>
-          <img src="images/rabbit.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/rabbit.png" alt="Skinny rabbit with antlers" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -261,7 +291,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Stone Man</figcaption>
-          <img src="images/stone.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/stone.png" alt="Stone Man" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -270,7 +300,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Freddy</figcaption>
-          <img src="images/freddy.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/freddy.png" alt="Man looking like Freddy Krueger" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>
@@ -279,7 +309,7 @@
       <div class="popup">
         <figure class="big-picture">
           <figcaption class="big-picture">Duck</figcaption>
-          <img src="images/duck.png" alt="Mariia Shcheglova's art work" />
+          <img src="images/duck.png" alt="Duck (drake)" />
           <a class="close" title="Close" href="#close"></a>
         </figure>
       </div>

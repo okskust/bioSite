@@ -13,10 +13,15 @@
       rel="stylesheet"
     />
     <title>Mariia Shcheglova|artist & sculptor</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+    <link rel="manifest" href="images/site.webmanifest" />
   </head>
   <body class="burgundy-page">
     <div class="grid-container">
-      <div class="logo-place">
+      <div role="heading" aria-level="1" class="logo-place">
         <a href="index.html"
           ><img
             src="images/logo1.png"
@@ -24,30 +29,36 @@
             alt="logo Mariia Shcheglova"
         /></a>
       </div>
-      <div class="photo-place">
-        <img
+      <div role= "banner" class="photo-place">
+        <img 
           src="images/photoMariia1.png"
           class="photo"
-          alt="photo Mariia Shcheglova"
+          alt="Mariia Shcheglova's photo"
         />
       </div>
-      <div class="nav burgundy">
+      <div role="navigation" class="nav burgundy">
         <a href="about.html">About</a>
         <a href="digitalart.html">Digital Art</a>
         <a href="papiermacher.html">Papier-mâché</a>
         <a href="hobby.html">Hobby</a>
       </div>
 
-      <div class="content">
+      <div role="main" class="content">
         <div class="container-main">
           <img
             src="images/adventure.jpg"
             class="main"
             alt="artwork Adventure"
           />
-          <div class="footer">
-            <a href="digitalart.html">View more</a>
-          </div>
+          <a href="digitalart.html" id="view-more">View more artworks</a>
+        </div>
+        <div class="footer">
+          <p class="copyright">
+            &copy; Oksana Kustova
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+          </p>
         </div>
       </div>
     </div>
